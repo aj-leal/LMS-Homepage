@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>LMS Homepage</title>
+
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+	<link href="https://allfont.net/allfont.css?fonts=league-spartan" rel="stylesheet" type="text/css" />
+
+</head>
+<body>
+	<style>
+		#topDisplay {
+			background: url(img/header_revamp.png) center right/cover no-repeat;
+			min-height: 520px;
+			position: relative;
+		}
+
+		#header {
+			color: #0A1931;
+		}
+
+		#tDdiscover {
+			background-color: #050A30;
+		}
+
+		#tDdiscover:hover {
+			background-color: #035397;
+		}
+
+		#improvements {
+			background-color: #F2F1EC;
+		}
+
+		.impClass {
+			font-size: 45px;
+		}
+
+		.impATDiscover {
+			background-color: #050A30;
+		}
+
+		.impATDiscover:hover {
+			transform: scale(1.1,1.1);
+			-webkit-transform: scale(1.1,1.1);
+			-moz-transform: scale(1.1,1.1);
+		}
+
+		#impAdvTrans {
+			background: url(img/advisor_transformation.png) center center/cover no-repeat;
+			position:  relative;
+			min-width: 337px;
+		}
+
+		#impLeadTrans {
+			background: url(img/leader_transformation.png) center center/cover no-repeat;
+			position:  relative;
+			min-width: 337px;
+			margin-left: 60px;
+			margin-right: 60px; 	
+		}
+
+		#impDigiDist {
+			background: url(img/digital_distributors.png) center center/cover no-repeat;
+			position:  relative;
+			min-width: 337px;
+		}
+
+		#agencyOnboarding{
+			background-color: #7AC7ED;
+		}
+
+		#AOContainer {
+			padding-top: 0px;
+		}
+
+		#AOHeader {
+			font-size: 50px;
+		}
+
+		.AODiscover {
+			background-color: #ffffff;
+			color: #0A1931;
+			padding: 10px 60px 10px 60px;
+		}
+
+		.AODiscover:hover {
+			background-color: #055052;
+			color: #ffffff	;
+			transform: scale(1.1,1.1);
+			-webkit-transform: scale(1.1,1.1);
+			-moz-transform: scale(1.1,1.1);
+		}
+
+		.AOHeading {
+			margin: 150px 0px 50px 0px;
+			font-size: 50px	;
+			text-shadow: 1px 1px 3px #404040;
+		}
+
+		.AOTypeDescription {
+			font-size: 30px;
+		}
+
+		#AOStarter {
+			background: url(img/starter.png) center center/cover no-repeat;
+			position:  relative;
+			max-width: 300px;
+		}
+
+		#AOBasic {
+			background: url(img/basic.png) center center/cover no-repeat;
+			position:  relative;
+			max-width: 300px;
+			margin: 0px 7px 0px 7px;
+		}
+
+		#AOPlus {
+			background: url(img/plus.png) center center/cover no-repeat;
+			position:  relative;
+			max-width: 300px;
+			margin: 0px 7px 0px 0px;
+		}
+
+		#AOPro {
+			background: url(img/pro.png) center center/cover no-repeat;
+			position:  relative;
+			max-width: 300px;
+		}
+
+		.fontUser {
+			font-family: 'League Spartan Bold', arial;
+		}
+
+		.discoverButton {
+			font-size: 22px;
+		}
+
+		#backToTopButton {
+			
+			position: fixed;
+			bottom: 20px;
+			right: 40px;
+			z-index: 99;
+			border: none;
+			outline: none;
+			cursor: pointer;
+			color: #055052;
+		}
+
+		#backToTopButton:hover {
+			color:  #000000;
+		}
+
+		#calendarButton{
+			display: inline-block;
+			position: fixed;
+			bottom: 105px;
+			right: 45px;
+			z-index: 100;
+			cursor: pointer;
+			color: #055052;
+		}
+
+		#calendarButton:hover {
+			color: #000000;
+		}
+
+	</style>
+	<section id="topDisplay" class="d-flex justify-content-center align-items-center">
+		<div id="header" class="container text-left">
+			<h3 class="display-5 mb-0 font-weight-bold">WELCOME TO</h3>
+			<h1 class="display-4 fontUser">Distribution<br/>Learning &<br/>Development</h1>
+			<p class="lead d-block mb-0"><strong>Discover DL&D's latest e-learning</strong></p>
+			<p class="lead d-block"><strong>offerings in one site!</strong></p>
+			<a href="#" id="tDdiscover" class="btn btn-lg px-5 lead text-white font-weight-bold discoverButton">DISCOVER</a>
+		</div>
+	</section>
+	<section >
+		
+		<div class="d-flex justify-content-center mx-0 px-5 py-5" id="improvements">
+			<div id="impAdvTrans" class="col-md-3 text-center text-white">
+				<h5 class="mt-5">Advisor Transformation</h5>
+				<h1 class="fontUser impClass">Distributor's <br/> Hub</h1>
+				<h4 class="mt-3">Learn how you can boost your sales through these LMS courses and materials!</h4>
+				<div class="d-flex justify-content-center">	
+					<a class="impATDiscover btn btn-lg px-5 m-5 lead text-white font-weight-bold discoverButton">DISCOVER</a>
+				</div>
+			</div>
+			<div id="impLeadTrans" class="col-md-3 text-center text-white">
+				<h5 class="mt-5">Leader Transformation</h5>
+				<h1 class="fontUser impClass">Manager's <br/> Academy</h1>
+				<h4 class="mt-3">Learn how you can improve your business activities with our latest learning materials!</h4>
+				<div class="d-flex justify-content-center">	
+					<a class="impATDiscover btn btn-lg px-5 m-5 lead text-white font-weight-bold discoverButton">DISCOVER</a>
+				</div>
+			</div>
+			<div id="impDigiDist" class="col-md-3 text-center text-white">
+				<h5 class="mt-5">Digital Distributors</h5>
+				<h1 class="fontUser impClass">Digital <br/> Learning</h1>
+				<h4 class="mt-3">Learn at your own pace with our e-learning courses and materials!</h4>
+				<div class="d-flex justify-content-center">	
+					<a class="impATDiscover btn btn-lg px-5 m-5 lead text-white font-weight-bold discoverButton">DISCOVER</a>
+				</div>
+			</div>
+		</div>
+		
+	</section>
+
+	<section id="agencyOnboarding" class="text-center text-white pb-5">
+
+		<h1 class="font-weight-bold mb-0 pt-4 fontUser" id="AOHeader">AGENCY ONBOARDING</h1>
+		<h4 class="my-0">Explore Our Recommended Learning Content In Your First Year As Distributor!</h4>
+		<div class="row d-flex justify-content-center mb-5 px-0 py-4" id="AOContainer">
+			<div class="col-md-3" id=AOStarter>
+				<h1 class="font-weight-bold AOHeading fontUser">STARTER</h1>
+				<h4 class="AOTypeDescription">Recommended for <br/> your MONTH 0</h4>
+				<div class="d-flex justify-content-center">
+					<a class="AODiscover btn btn-lg font-weight-bold m-5 discoverButton">DISCOVER</a>
+				</div>
+			</div>
+			<div class="col-md-3" id="AOBasic">
+				<h1 class="font-weight-bold AOHeading fontUser">BASIC</h1>
+				<h4 class="AOTypeDescription">Recommended for <br/> MONTHS 1-3</h4>
+				<div class="d-flex justify-content-center">
+					<a class="AODiscover btn btn-lg font-weight-bold m-5 discoverButton">DISCOVER</a>
+				</div>
+			</div>
+			<div class="col-md-3" id="AOPlus">
+				<h1 class="font-weight-bold AOHeading fontUser">PLUS</h1>
+				<h4 class="AOTypeDescription">Recommended for <br/> MONTHS 4-6</h4>
+				<div class="d-flex justify-content-center">
+					<a class="AODiscover btn btn-lg font-weight-bold m-5 discoverButton">DISCOVER</a>
+				</div>
+			</div>
+			<div class="col-md-3 p-0" id="AOPro">
+				<h1 class="font-weight-bold AOHeading fontUser">PRO</h1>
+				<h4 class="AOTypeDescription">Recommended for <br/> MONTHS 7-12</h4>
+				<div class="d-flex justify-content-center">
+					<a class="AODiscover btn btn-lg font-weight-bold m-5 discoverButton">DISCOVER</a>
+				</div>
+			</div>
+		</div>
+	</section>
+	<a id="calendarButton" title="Calendar"><i class="far fa-4x fa-calendar-alt"></i></a>
+	<a id="backToTopButton" onclick="back_to_top()" title="Go to Top"><i class="far fa-4x fa-arrow-alt-circle-up"></i></a>
+
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+	<script>
+		var backToTopButton = document.getElementById("backToTopButton");
+
+		window.onscroll = function() {scrollFunction()};
+
+		function scrollFunction() {
+			if (document.body.scrollTop > 30 || document.documentElement.scrollTop > 30)
+				backToTopButton.style.display = "block";
+			else
+				backToTopButton.style.display = "none";
+		}
+
+
+		function back_to_top(){
+			document.body.scrollTop=0;
+			document.documentElement.scrollTop=0;
+		}
+	</script>
+</body>
+</html>
