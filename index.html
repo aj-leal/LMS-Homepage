@@ -14,7 +14,7 @@
 <body>
 	<style>
 		#topDisplay {
-			background: url(img/header_revamp.png) center right/cover no-repeat;
+			background: url(img/header_revamp.png) center left/cover no-repeat;
 			min-height: 520px;
 			position: relative;
 		}
@@ -39,8 +39,8 @@
 			padding: 50px 0px 50px 0px;
 		}
 
-		.impClass {
-			font-size: 45px;
+		.impDiscoverContainer {
+			margin-top: 25rem;
 		}
 
 		.impATDiscover {
@@ -53,24 +53,54 @@
 			-moz-transform: scale(1.1,1.1);
 		}
 
-		#impAdvTrans {
-			background: url(img/advisor_transformation.png) center center/cover no-repeat;
+		#impLeadTrans {
+			background: url(img/distributorsHub.png) center center/cover no-repeat;
 			position:  relative;
-			max-width: 340px;
+			max-width: 380px;
 		}
 
-		#impLeadTrans {
-			background: url(img/leader_transformation.png) center center/cover no-repeat;
+		#impLeadTrans:hover {
+			background: url(img/HoverDH.png) center center/cover no-repeat;
+			transition: background 0.5s ease-in;
+			-webkit-transition: background 0.5s ease-in;
+			-moz-transition: background 0.5s ease-in;
+			-o-transition: background 0.5s ease-in;
 			position:  relative;
-			max-width: 340px;
-			margin-left: 60px; 
-			margin-right: 60px; 
+			max-width: 380px;
+		}
+
+		#impAdvTrans {
+			background: url(img/leadershipAcademy.png) center center/cover no-repeat;
+			position:  relative;
+			max-width: 380px;
+			margin: 0px 40px 0px 40px;
+		}
+
+		#impAdvTrans:hover {
+			background: url(img/HoverLA.png) center center/cover no-repeat;
+			transition: background 0.5s ease-in;
+			-webkit-transition: background 0.5s ease-in;
+			-moz-transition: background 0.5s ease-in;
+			-o-transition: background 0.5s ease-in;
+			position:  relative;
+			max-width: 380px;
+			margin: 0px 40px 0px 40px;
 		}
 
 		#impDigiDist {
-			background: url(img/digital_distributors.png) center center/cover no-repeat;
+			background: url(img/digitalLearning.png) center center/cover no-repeat;
 			position:  relative;
-			max-width: 340px;
+			max-width: 380px;
+		}
+
+		#impDigiDist:hover {
+			background: url(img/HoverDL.png) center center/cover no-repeat;
+			transition: background 0.5s ease-in;
+			-webkit-transition: background 0.5s ease-in;
+			-moz-transition: background 0.5s ease-in;
+			-o-transition: background 0.5s ease-in;
+			position:  relative;
+			max-width: 380px;
 		}
 
 		#agencyOnboarding{
@@ -106,29 +136,31 @@
 		}
 
 		#AOStarter {
-			background: url(img/starter.png) center center/cover no-repeat;
+			background: url(img/starterRounded.png) center center/cover no-repeat;
 			position:  relative;
-			max-width: 300px;
+			max-width: 310px;
+			margin: 0px 4px 0px 4px;
 		}
 
 		#AOBasic {
-			background: url(img/basic.png) center center/cover no-repeat;
+			background: url(img/basicRounded.png) center center/cover no-repeat;
 			position:  relative;
-			max-width: 300px;
-			margin: 0px 7px 0px 7px;
+			max-width: 310px;
+			margin: 0px 4px 0px 4px;
 		}
 
 		#AOPlus {
-			background: url(img/plus.png) center center/cover no-repeat;
+			background: url(img/plusRounded.png) center center/cover no-repeat;
 			position:  relative;
-			max-width: 300px;
-			margin: 0px 7px 0px 0px;
+			max-width: 310px;
+			margin: 0px 4px 0px 4px;
 		}
 
 		#AOPro {
-			background: url(img/pro.png) center center/cover no-repeat;
+			background: url(img/proRounded.png) center center/cover no-repeat;
 			position:  relative;
-			max-width: 300px;
+			max-width: 310px;
+			margin: 0px 4px 0px 4px;
 		}
 
 		.fontUser {
@@ -176,39 +208,30 @@
 			<h1 class="display-4 fontUser">Distribution<br/>Learning &<br/>Development</h1>
 			<p class="lead d-block mb-0"><strong>Discover DL&D's latest e-learning</strong></p>
 			<p class="lead d-block"><strong>offerings in one site!</strong></p>
-			<a href="#" id="tDdiscover" class="btn btn-lg px-5 lead text-white font-weight-bold discoverButton">DISCOVER</a>
+			<a href="https://axa.csod.com/ui/lms-learning-details/app/externalcontent/7f2bfdce-937e-4f56-9bb8-488de9dec53a" id="tDdiscover" class="btn btn-lg px-5 lead text-white font-weight-bold discoverButton">DISCOVER</a>
 		</div>
 	</section>
 	<section id="improvements">
 		<div class="row d-flex justify-content-center" id="impContainer">
-			<div id="impAdvTrans" class="col-md-3 text-center text-white">
-				<h5 class="mt-5">Advisor Transformation</h5>
-				<h1 class="fontUser impClass">Distributor's <br/> Hub</h1>
-				<h4 class="mt-3">Learn how you can <br/> boost your sales <br/> through these LMS courses <br/> and materials!</h4>
-				<div class="d-flex justify-content-center">	
-					<a class="impATDiscover btn btn-lg px-5 m-5 lead text-white font-weight-bold discoverButton">DISCOVER</a>
+			<div id="impLeadTrans" class="col-md-4 text-center text-white">
+				<div class="impDiscoverContainer d-flex justify-content-center">	
+					<a href="https://axa.csod.com/ui/lms-learner-playlist/PlaylistDetails?playlistId=098ebc37-5800-4d56-a921-9f7ff607fa3d" class="impATDiscover btn btn-lg px-5 m-5 lead text-white font-weight-bold discoverButton">DISCOVER</a>
 				</div>
 			</div>
-			<div id="impLeadTrans" class="col-md-3 text-center text-white">
-				<h5 class="mt-5">Leader Transformation</h5>
-				<h1 class="fontUser impClass">Manager's <br/> Academy</h1>
-				<h4 class="mt-3">Learn how you can improve your business activities with our latest learning materials!</h4>
-				<div class="d-flex justify-content-center">	
-					<a class="impATDiscover btn btn-lg px-5 m-5 lead text-white font-weight-bold discoverButton">DISCOVER</a>
+			<div id="impAdvTrans" class="col-md-4 text-center text-white">
+				<div class="impDiscoverContainer d-flex justify-content-center">	
+					<a href="https://axa.csod.com/ui/lms-learner-playlist/PlaylistDetails?playlistId=ceefc466-4044-49ac-8470-75acb41c55eb" class="impATDiscover btn btn-lg px-5 m-5 lead text-white font-weight-bold discoverButton">DISCOVER</a>
 				</div>
 			</div>
-			<div id="impDigiDist" class="col-md-3 text-center text-white">
-				<h5 class="mt-5">Digital Distributors</h5>
-				<h1 class="fontUser impClass">Digital <br/> Learning</h1>
-				<h4 class="mt-3">Learn at your own <br/> pace with our <br/> e-learning courses <br/> and materials!</h4>
-				<div class="d-flex justify-content-center">	
-					<a class="impATDiscover btn btn-lg px-5 m-5 lead text-white font-weight-bold discoverButton">DISCOVER</a>
+			<div id="impDigiDist" class="col-md-4 text-center text-white">
+				<div class="impDiscoverContainer d-flex justify-content-center">	
+					<a href="https://axa.csod.com/ui/lms-learner-playlist/PlaylistDetails?playlistId=976f0a12-bdf5-415b-baa4-0dfab3dad740" class="impATDiscover btn btn-lg px-5 m-5 lead text-white font-weight-bold discoverButton">DISCOVER</a>
 				</div>
 			</div>
 		</div>	
 	</section>
 
-	<section id="agencyOnboarding" class="text-center text-white pb-5">
+	<section id="agencyOnboarding" class="text-center text-white pb-3">
 
 		<h1 class="font-weight-bold mb-0 pt-4 fontUser" id="AOHeader">AGENCY ONBOARDING</h1>
 		<h4 class="my-0">Explore Our Recommended Learning Content In Your First Year As Distributor!</h4>
@@ -217,33 +240,33 @@
 				<h1 class="font-weight-bold AOHeading fontUser">STARTER</h1>
 				<h4 class="AOTypeDescription">Recommended for <br/> your MONTH 0</h4>
 				<div class="d-flex justify-content-center">
-					<a class="AODiscover btn btn-lg font-weight-bold m-5 discoverButton">DISCOVER</a>
+					<a href=" https://axa.csod.com/ui/lms-learner-playlist/PlaylistDetails?playlistId=0f2ead1c-48f8-42b0-9039-d84829dab850" class="AODiscover btn btn-lg font-weight-bold m-5 discoverButton">DISCOVER</a>
 				</div>
 			</div>
 			<div class="col-md-3" id="AOBasic">
 				<h1 class="font-weight-bold AOHeading fontUser">BASIC</h1>
 				<h4 class="AOTypeDescription">Recommended for <br/> MONTHS 1-3</h4>
 				<div class="d-flex justify-content-center">
-					<a class="AODiscover btn btn-lg font-weight-bold m-5 discoverButton">DISCOVER</a>
+					<a href="https://axa.csod.com/ui/lms-learner-playlist/PlaylistDetails?playlistId=9df7120e-47fe-4995-99b7-9f103505d998" class="AODiscover btn btn-lg font-weight-bold m-5 discoverButton">DISCOVER</a>
 				</div>
 			</div>
 			<div class="col-md-3" id="AOPlus">
 				<h1 class="font-weight-bold AOHeading fontUser">PLUS</h1>
 				<h4 class="AOTypeDescription">Recommended for <br/> MONTHS 4-6</h4>
 				<div class="d-flex justify-content-center">
-					<a class="AODiscover btn btn-lg font-weight-bold m-5 discoverButton">DISCOVER</a>
+					<a href="https://axa.csod.com/ui/lms-learner-playlist/PlaylistDetails?playlistId=4cb4c394-9bce-49ac-8963-bb426ec700ea" class="AODiscover btn btn-lg font-weight-bold m-5 discoverButton">DISCOVER</a>
 				</div>
 			</div>
 			<div class="col-md-3 p-0" id="AOPro">
 				<h1 class="font-weight-bold AOHeading fontUser">PRO</h1>
 				<h4 class="AOTypeDescription">Recommended for <br/> MONTHS 7-12</h4>
 				<div class="d-flex justify-content-center">
-					<a class="AODiscover btn btn-lg font-weight-bold m-5 discoverButton">DISCOVER</a>
+					<a href="https://axa.csod.com/ui/lms-learner-playlist/PlaylistDetails?playlistId=f31afaba-6cd0-4c3f-8a58-73f4579f5a5e" class="AODiscover btn btn-lg font-weight-bold m-5 discoverButton">DISCOVER</a>
 				</div>
 			</div>
 		</div>
 	</section>
-	<a id="calendarButton" title="Calendar"><i class="far fa-4x fa-calendar-alt"></i></a>
+	<a href="https://axa.csod.com/LMS/catalog/EventsCalendar.aspx?" id="calendarButton" target="_blank" rel="noreferrer noopener" title="Calendar"><i class="far fa-4x fa-calendar-alt"></i></a>
 	<a id="backToTopButton" onclick="back_to_top()" title="Go to Top"><i class="far fa-4x fa-arrow-alt-circle-up"></i></a>
 
 	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
